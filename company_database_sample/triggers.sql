@@ -28,7 +28,7 @@ INSERT INTO employee
 VALUES(112, 'Oscar', 'Martinez', '1968-02-19', 'M', 69000, 106, 3);
 
 
--- DELIMITER $$
+DELIMITER $$
 CREATE
     TRIGGER my_trigger1 BEFORE INSERT
     ON employee
